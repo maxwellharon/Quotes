@@ -16,7 +16,7 @@ export class QuoteComponent implements OnInit {
       new Quote(6, 'Plot my world domination plan','Hey Anilla',new Date(20,8,18)),
 
   ]
-  completeQuote(isComplete,index){
+  quoteComplete(isComplete,index){
        if (isComplete){
            this.quotes.splice(index,1);
            }
@@ -26,8 +26,16 @@ export class QuoteComponent implements OnInit {
        this.quotes[index].showDescription = !this.quotes[index].showDescription;
    }
 
-  constructor() { }
 
-  ngOnInit() {
-  }
+  addNewGoal(goal){
+        let quoteLength = this.quote.length;
+        quote.id=goalLength+1;
+        quote.completeDate = new Date(quote.completeDate)
+        this.quotes.push(quote)
+
+    }
+}
+constructor() { }
+
+ngOnInit() {
 }
