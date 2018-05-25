@@ -3,9 +3,12 @@
 
 <ul>
     <div *ngFor='let quote of quotes;let i = index'>
-        <li id="{{i}}" appStrikethrough>{{quote.name}} due on {{quote.completeDate|date}} </li>
-        <button  (click)='toogleDetails(i)'>Details</button>
+        <li >{{quote.name}}</li>
+        <button  (click)='toogleDetails(i)'>See More:-)</button>
 
-        <app-quote-details *ngIf="quote.showDescription" [quote]='quote' (isComplete)= 'completeQuote($event,i)'></app-quote-details>
+        <app-quote-details *ngIf="quote.showDescription" [quote]='quote'></app-quote-details>
+        <div class="row">
+        <app-quote-form></app-quote-form>
+    </div>
     </div>
 </ul>
