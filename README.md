@@ -1,27 +1,24 @@
 # Quote
+## Maxwell Haron
+#### Quote is a web application that displays quotes from various people.
+#### THe live link to Quote is
+ 26th May 2018 2.10PM
+#### By **Maxwell Haron**
+## Description
+Quote is a web based application that
+## Installation Requirements
+* A web browser is required to access the application since it is web based .
+* Internet connection
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.3.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Known Bugs
+  There are no known bugs affecting the website at the moment.But if the user encounters any then I will be happy to look them up and fix them
+## Technologies Used
+* The site has incorporated the use of html in the writing of the webpage.
+* The site has also demonstrates the clear use and mastery of Bootstrap,css and Google fonts
+## Support and contact details
+For assistance and Queries please email maxwellharon54@gmail.com.
+       or call
+       +254716280403
+### License
+*MIT 2018.*
+Copyright (c) 2018 **Maxwell Haron**
