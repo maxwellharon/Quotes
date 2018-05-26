@@ -13,12 +13,10 @@ Quote is a web based application that displays quotes from various people around
 ## Known Bugs
   There are no known bugs affecting the website at the moment.But if the user encounters any then I will be happy to look them up and fix them
 ## Technologies Used
-* The site has incorporated the use of html in the writing of the webpage.
-* The site has also demonstrates the clear use and mastery of Bootstrap,css and Google fonts
+* The site has incorporated the use of angular in the writing of the webpage.The Web App also uses bootsrap in the styling of it's page
 ## Support and contact details
 For assistance and Queries please email maxwellharon54@gmail.com.
-       or call
-       +254716280403
+       
 ### License
 *MIT 2018.*
 Copyright (c) 2018 **Maxwell Haron**
