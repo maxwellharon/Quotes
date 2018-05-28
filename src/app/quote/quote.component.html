@@ -8,6 +8,6 @@
         <app-quote-details *ngIf="quote.showDescription" [quote]='quote' (isComplete) = 'quoteComplete($event,i)'></app-quote-details>
         <div class="row">
           <button (click)="upvote(i)">upvote:{{quote.upvotes}}</button>
-          <!-- <button (click)="downvote(i)">downvote:{{quote.downvotes}}</button> -->
+          <button (click)="downvote(i)">downvote:{{quote.downvotes}}</button>
         </div>
     </div>
