@@ -7,7 +7,7 @@
 
         <app-quote-details *ngIf="quote.showDescription" [quote]='quote' (isComplete) = 'quoteComplete($event,i)'></app-quote-details>
         <div class="row">
-          <button (click)="upvote(i)">upvote:{{quote.upvotes}}</button>
-          <button (click)="downvote(i)">downvote:{{quote.downvotes}}</button>
+          <button (click)="upvote(i)" class="btn btn-success">upvote:{{quote.upvotes}}</button>
+          <button (click)="downvote(i)" class="btn btn-danger">downvote:{{quote.downvotes}}</button>
         </div>
     </div>
