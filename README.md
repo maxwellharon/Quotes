@@ -1,7 +1,7 @@
 # Quote
 ## Maxwell Haron
 #### Quote is a web application that displays quotes from various people.
-#### The live link to Quote is  
+#### The live link to Quote is https://maxwellharon.github.io/Quotes/Quote/
  26th May 2018 2.10PM
 #### By **Maxwell Haron**
 ## Description
