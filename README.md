@@ -1,7 +1,7 @@
 # Quote
 ## Maxwell Haron
 #### Quote is a web application that displays quotes from various people.
-#### THe live link to Quote is
+#### The live link to Quote is  
  26th May 2018 2.10PM
 #### By **Maxwell Haron**
 ## Description
@@ -16,7 +16,6 @@ Quote is a web based application that displays quotes from various people around
 * The site has incorporated the use of angular in the writing of the webpage.The Web App also uses bootsrap in the styling of it's page
 ## Support and contact details
 For assistance and Queries please email maxwellharon54@gmail.com.
-       
 ### License
 *MIT 2018.*
 Copyright (c) 2018 **Maxwell Haron**

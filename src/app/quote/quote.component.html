@@ -1,14 +1,13 @@
 <h1>Quotes</h1>
 <hr>
 <app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form>
-<ul>
     <div *ngFor='let quote of quotes;let i = index'>
         <li >{{quote.name}}</li>
         <button  (click)='toogleDetails(i)' class="btn btn-info">See More:-)</button>
 
         <app-quote-details *ngIf="quote.showDescription" [quote]='quote' (isComplete) = 'quoteComplete($event,i)'></app-quote-details>
         <div class="row">
-
+          <button (click)="upvote(i)">upvote:{{quote.upvotes}}</button>
+          <!-- <button (click)="downvote(i)">downvote:{{quote.downvotes}}</button> -->
+        </div>
     </div>
-    </div>
-</ul>
